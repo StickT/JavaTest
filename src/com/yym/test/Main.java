@@ -1,4 +1,4 @@
-import java.util.concurrent.atomic.AtomicInteger;
+package com.yym.test;
 
 public class Main {
 
