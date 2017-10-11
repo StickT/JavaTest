@@ -1,3 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 algorithms.iml
+# 编译目录忽略
+target/
