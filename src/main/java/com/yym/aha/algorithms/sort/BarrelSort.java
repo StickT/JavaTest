@@ -1,13 +1,16 @@
 package com.yym.aha.algorithms.sort;
 
+import java.util.Date;
+
 /**
  * Created by yaoyimin on 2017/10/10
  */
 public class BarrelSort {
 
-	private static int[] array = {1,5,5,666666};
+	private static int[] array = {1,5,5,66666666};
 
 	public static void main(String[] args){
+		long start = new Date().getTime();
 		int length = array.length;
 		int maxValue = findMaxInt(array);
 		int[] sort = new int[maxValue+1];
@@ -15,6 +18,8 @@ public class BarrelSort {
 			int index = array[i];
 			sort[index] += 1;
 		}
+		long end = new Date().getTime();
+		System.out.println(end-start);
 		printSortedArray(sort);
 	}
 
