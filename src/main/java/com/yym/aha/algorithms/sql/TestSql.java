@@ -36,8 +36,6 @@ public class TestSql {
 
 		connection.close();
 
-
-
 	}
 
 	private static Connection getConnection() throws SQLException,ClassNotFoundException{
